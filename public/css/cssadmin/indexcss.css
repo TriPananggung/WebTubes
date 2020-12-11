@@ -1,0 +1,107 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.semua {
+  width: 95%;
+  margin: auto;
+}
+
+.container-fluid {
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  color: white;
+  margin: 30px 0;
+}
+
+h3 {
+  font-size: 20px;
+  background-color: rgb(0, 123, 255);
+  width: 150px;
+  height: 40px;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.isi {
+  width: 100%;
+}
+
+.kotak {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.kotak .gambar img {
+  width: 130px;
+}
+
+.tabel {
+  display: flex;
+  justify-content: space-between;
+}
+.tabel.pertama p:nth-child(2) {
+  margin-left: 57px;
+}
+.tabel.kedua p:nth-child(2) {
+  margin-left: 39px;
+}
+.tabel.ketiga p:nth-child(2) {
+  margin-left: 45px;
+}
+.tabel.usia p:nth-child(2) {
+  margin-left: 25px;
+}
+.tabel.keempat p:nth-child(2) {
+  margin-left: 5px;
+}
+.tabel.kelima p:nth-child(2) {
+  margin-left: 66px;
+}
+.tabel.keenam p:nth-child(2) {
+  margin-left: 26px;
+}
+.tabel.ketujuh p:nth-child(2) {
+  margin-left: 30px;
+}
+.tabel p:nth-child(2) {
+  margin-right: 5px;
+}
+
+.kotak .tabel p:nth-child(1),
+.kotak .tabel p:nth-child(2) {
+  font-weight: bold;
+}
+
+.kotak .tabel p:nth-child(3) {
+  width: 90%;
+}
+
+.gambar {
+  margin: 30px;
+}
+
+.edit,
+.hapus {
+  margin-bottom: 20px;
+}
+
+/* .gariskanan {
+  border-right: 2px solid rgb(0, 123, 255);
+  margin-bottom: 20px;
+} */

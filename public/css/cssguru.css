@@ -1,0 +1,60 @@
+#navbarr {
+  /*  background-color: rgb(46,117,182);*/
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 123, 255, 0.4);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: rgb(255, 165, 91);
+}
+
+#cari {
+  color: white;
+  border: 1px solid white;
+}
+
+#navbarTogglerDemo01 a {
+  font-size: 18px;
+}
+
+#menu {
+  position: absolute;
+  position: relative;
+  padding: 20px;
+  top: 50px;
+}
+
+#menu a {
+  color: white;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.table-responsive {
+  margin-top: 50px;
+}
+
+.kartu {
+  margin-top: 80px;
+}
+
+#nama {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+hr {
+  position: relative;
+  bottom: 10px;
+}
+
+.namaguru .namsiswa {
+  margin-top: -40px;
+}

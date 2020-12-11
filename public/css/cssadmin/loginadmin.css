@@ -1,0 +1,158 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+}
+
+.satu {
+  /* padding-left: 100px; */
+  box-sizing: border-box;
+  background-color: rgb(53, 63, 176);
+}
+
+.kotak {
+  width: 500px;
+  height: 500px;
+  padding: 20px;
+  padding-top: 50px;
+  margin-top: 100px;
+  margin-left: 100px;
+  border-radius: 30px;
+  /* background: rgb(255, 190, 136); */
+  box-shadow: 0 0 5px 3px white;
+}
+
+.kotak h1 {
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.kotak .baris {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(autofix, minmax(300px, 1fr));
+}
+.kotak .baris .kolom {
+  margin: 50px 0 10px;
+  transition: 0.5s;
+}
+
+.kotak .baris .box {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  /* color */
+}
+
+.kotak .baris .box input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding: 0 10px;
+  z-index: 1;
+  color: rgb(61, 147, 232);
+  padding-top: 5px;
+}
+
+.kotak .baris .box .tulis {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 40px;
+  padding: 0 10px;
+  display: block;
+  position: 0.5;
+  pointer-events: none;
+  transition: 0.5s;
+  width: 100%;
+  color: white;
+}
+
+.kotak .baris .box input:focus + .tulis,
+.kotak .baris .box input:valid + .tulis {
+  top: -20px;
+  left: -10px;
+}
+
+.kotak .baris .box .garis {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  border-radius: 2px;
+  background: white;
+  pointer-events: none;
+  transition: 0.5s;
+  display: block;
+}
+
+.kotak .baris .box input:focus ~ .garis,
+.kotak .baris .box input:valid ~ .garis {
+  height: 80%;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  background: white;
+  cursor: pointer;
+  font-size: 18px;
+  color: rgb(61, 147, 232);
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+.g {
+  background: rgb(56, 25, 162);
+  box-shadow: 0 0 5px 3px rgb(56, 25, 162);
+}
+
+.g h1 {
+  color: white;
+}
+
+.g .baris .box input {
+  color: rgb(56, 25, 162);
+}
+
+.g .baris .box .tulis {
+  color: rgb(61, 147, 232);
+}
+
+.g .baris .box .garis {
+  background: white;
+}
+
+.g input[type="submit"] {
+  background: white;
+  color: rgb(61, 147, 232);
+}
+
+button {
+  margin: 15px 0;
+}
+.satu {
+  height: 100vh;
+}
+.dua {
+  background-image: url(/img/loginwalpaper.jpg);
+  background-size: cover;
+  background-position: center center;
+}

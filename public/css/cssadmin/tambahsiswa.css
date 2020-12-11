@@ -1,0 +1,82 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+form input {
+  height: 50px;
+  font-size: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: none;
+  box-shadow: 0 0 5px 0px rgb(30, 13, 128);
+  outline: none;
+}
+
+form #file {
+  box-shadow: none;
+}
+
+form .file label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+form .file {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 10px;
+}
+
+form button {
+  width: 50%;
+  margin: auto;
+  background: rgb(255, 190, 136);
+  box-shadow: 0 0 5px 0px rgb(255, 190, 136);
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.cewek,
+.cowok {
+  display: flex;
+}
+
+.cowok > label > h2 {
+  font-size: 18px;
+  margin-right: 40px;
+  margin-top: 15px;
+}
+.jkjk {
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 10px;
+}
+
+#pria,
+#wanita {
+  margin-right: 20px;
+  box-shadow: none;
+}

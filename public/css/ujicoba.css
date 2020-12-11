@@ -1,0 +1,56 @@
+#menu a {
+  color: white;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.body {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.menu {
+  width: 100%;
+}
+.formabsensi {
+  border: 10px black;
+}
+
+#navbarTogglerDemo01 a {
+  font-size: 20px;
+}
+.cardbaru {
+  text-align: left;
+}
+.card-body > img {
+}
+.gambarmapel {
+}
+.tampilmapel {
+  text-align: right;
+}
+.profil {
+  border: 5px black;
+}
+.kolomabsensi {
+  border: 1px blue;
+}
+
+.kotak {
+  width: 50px;
+  height: 50px;
+  background-color: #bada55;
+  text-align: center;
+  line-height: 50px;
+  margin: 3px;
+  float: left;
+  transition: 0.5s;
+}
+.kotak:hover {
+  transform: rotate(360deg);
+  border-radius: 50%;
+}
+
+.berandalagi {
+  border: blue;
+  text-align: center;
+}
